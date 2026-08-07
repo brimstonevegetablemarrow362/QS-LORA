@@ -44,6 +44,16 @@ Base model: **Llama-3.2-3B-Instruct**. Metric: Bedrock Haiku **gold alignment (G
 
 QS-LoRA wins on all three. Full leaderboards (incl. AdaLoRA / B5 and merge ablations): [`docs/RESULTS_SUMMARY.md`](docs/RESULTS_SUMMARY.md) · JSON under [`examples/results/leaderboards/`](examples/results/leaderboards/).
 
+### Adapter analysis
+
+Quality-stratified merge tends to keep **higher effective rank** in ΔW than uniform LoRA baselines (B3 / B5), while staying below a full dense update in per-layer Frobenius mass:
+
+![Effective rank by model scale](docs/images/effective_rank_by_scale.png)
+
+![Per-layer Frobenius norm of ΔW](docs/images/frobenius_by_layer.png)
+
+More plots: [`docs/images/`](docs/images/) (`svd_decay_by_scale.png`, `b5_over_ours_frobenius_ratio.png`).
+
 ---
 
 ## Quick start — generate QA from your docs
@@ -108,7 +118,7 @@ No real credentials are in this repo. Generation is local once the adapter is me
 | `scripts/` | Env load, merge, docs→QA helpers |
 | `thesis/` | QS-LoRA train / eval / judge research code |
 | `examples/` | Sample doc + compact result artifacts |
-| `docs/` | Method notes + full results write-up |
+| `docs/` | Method notes + full results write-up + analysis plots |
 | `release/` | Release notes / checksum (zip is gitignored) |
 
 More method detail: [`docs/method.md`](docs/method.md).

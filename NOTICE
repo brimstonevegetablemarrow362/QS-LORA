@@ -1,0 +1,11 @@
+# NOTICE — model weights
+
+The GitHub Release asset `qa-generator-lora.zip` contains a **PEFT LoRA adapter**
+fine-tuned from Meta's Llama 3.2 Instruct weights.
+
+- Base model: `meta-llama/Llama-3.2-3B-Instruct`
+- You must obtain and use the base model under Meta's Llama Community License:
+  https://www.llama.com/llama3_2/license/
+- This repository's MIT license covers **code and documentation only**, not Llama weights.
+- Do not redistribute merged full-precision Llama checkpoints unless your use complies
+  with Meta's terms; prefer shipping / consuming the adapter + merge script.

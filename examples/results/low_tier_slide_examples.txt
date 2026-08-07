@@ -1,0 +1,221 @@
+Synthetic QA examples for Slide 10 (RepLiQA)
+Low-tier: examples 1–15  |  Drop-tier: examples 16–24
+Low = grounded but irrelevant (kept for specialist adapter).
+Drop = grounding collapse / hallucinated or unsupported (filtered out of training).
+========================================================================
+
+EXAMPLE 1  |  tier=low  G=5  R=1  DN=5  O=1
+failure_mode: grounded_but_irrelevant
+topic: Cybersecurity News  |  doc_id: gjkuqsmq
+Q: Can AI be used to detect cyberbullying?
+A: AI's role in enhancing cybersecurity in schools is to provide real-time threat detection and response. This includes analyzing large volumes of data and learning from it, identifying patterns and anomalies that might suggest a security breach, and automatically blocking access before a breach occurs. Additionally, AI-powered systems can monitor user access control, detect unusual login attempts from foreign countries, and automatically patch software vulnerabilities and manage user access control. It can also enhance identity management by setting up AI-driven user behavior analytics to ensure that user access rights are consistent with their roles and behavior patterns. Furthermore, AI can be utilized to protect student data and privacy by classifying sensitive data, monitoring its use, and ensuring encryption protocols are followed to maintain compliance with data protection regulations.
+Judge: The answer is well-grounded in the document's content about AI in cybersecurity, but it completely fails to address the question about cyberbullying detection, which is not covered in the provided context.
+Context snippet: The Role of Artificial Intelligence in Enhancing Cybersecurity in Schools In today's rapidly advancing technological landscape, educational institutions are increasingly becoming targets of cyber threats and attacks. With personal data, academic research, and intellectual property at risk, schools are under immense pressure to craft robust cybersecurity defenses. As of September 2023, the integrat...
+------------------------------------------------------------------------
+
+EXAMPLE 2  |  tier=low  G=5  R=1  DN=4  O=1
+failure_mode: grounded_but_irrelevant
+topic: Regional Folklore and Myths  |  doc_id: zumctrvk
+Q: What is the scientific basis for the phoenix's cycle of death and rebirth?
+A: The phoenix's cycle of death and rebirth has been documented in various cultures, including ancient Egyptian myths, where the Bennu bird was a heron-like creature associated with the sun god Ra. It was said to live for hundreds of years before building itself a nest of aromatic branches and spices, setting it aflame, and emerging rejuvenated from the ashes. This imagery of fiery death and rebirth traveled from Egypt to Greece, where the phoenix acquired its Greek name, akin to "deep red," a reference to the bird's vibrant plumage as well as the fiery end and beginning of its life cycle. The Greeks, who were astute chroniclers of myths across cultures, helped propagate the phoenix narrative through the writings of classical authors such as Herodotus and Ovid, who mentioned the creature in their works, often with a sense of wonder and a quest for underlying truth.
+Judge: The answer is well-grounded in the document but completely fails to address the question, which asks for scientific basis—the document explicitly discusses mythology and symbolism, not science, making a refusal the appropriate response.
+Context snippet: # The Phoenix: Symbolism of Rebirth in Mythology #   The phoenix, a legendary bird known for its cycle of death and rebirth, is a powerful symbol that has captured the human imagination for millennia. From ancient mythologies to modern interpretations, the phoenix represents transformation, resilience, and the indefatigable spirit of life itself. This article delves into the hidden secrets and eso...
+------------------------------------------------------------------------
+
+EXAMPLE 3  |  tier=low  G=5  R=1  DN=5  O=1
+failure_mode: grounded_but_irrelevant
+topic: Neighborhood Stories  |  doc_id: ojsntamq
+Q: How did Evelyn Carter become involved in the field of heritage conservation?
+A: Education and Skill Development in the Field of Heritage Conservation Once neglected, the fascinations of history etched in stone, brick, and wood have now found a reverential place in the heart of society. It was on a crisp autumn morning in September 2023 when I first met Evelyn Carter, whose life’s work had become synonymous with the conservation of our architectural past. Her journey began not in the hallowed halls of academia, nor under the sage guidance of a master conservator. Instead, it was the echoing silence within the walls of an old, dilapidated manor on the outskirts of her hometown that whispered to her the need to preserve our cultural foundations. This narrative charts Evelyn’s path from discovery to education and, finally, skill development in the critical field of heritage conservation.
+Judge: The answer is the introductory section of the document itself rather than a synthesized response to the question, making it irrelevant despite being grounded and document-dependent.
+Context snippet: Education and Skill Development in the Field of Heritage Conservation Once neglected, the fascinations of history etched in stone, brick, and wood have now found a reverential place in the heart of society. It was on a crisp autumn morning in September 2023 when I first met Evelyn Carter, whose life’s work had become synonymous with the conservation of our architectural past. Her journey began not...
+------------------------------------------------------------------------
+
+EXAMPLE 4  |  tier=low  G=5  R=1  DN=5  O=1
+failure_mode: grounded_but_irrelevant
+topic: Local News  |  doc_id: qbgbnbeo
+Q: How can I contribute to my historic neighborhood?
+A: Breathing New Life into Old Stones: Top 10 Contributions to Historic Neighborhoods Historic neighborhoods are treasured enclaves, offering a window to the past and a heartbeat for the future. Preserving and enriching these areas is not just about maintaining bricks and mortar; it’s about sustaining the cultural legacy and the identity of a community. From September 2023, when the Old Town Heritage Committee established its blueprint for revitalization, residents have sought ways to actively engage in the neighborhood improvement plans. Here are the top 10 ways residents can contribute to their historic neighborhood’s cultural enrichment.
+Judge: The answer merely reproduces the document's introduction rather than actually answering the question by listing the 10 specific contributions mentioned in the context.
+Context snippet: Breathing New Life into Old Stones: Top 10 Contributions to Historic Neighborhoods Historic neighborhoods are treasured enclaves, offering a window to the past and a heartbeat for the future. Preserving and enriching these areas is not just about maintaining bricks and mortar; it’s about sustaining the cultural legacy and the identity of a community. From September 2023, when the Old Town Heritage...
+------------------------------------------------------------------------
+
+EXAMPLE 5  |  tier=low  G=5  R=1  DN=5  O=1
+failure_mode: grounded_but_irrelevant
+topic: Local Sports and Activities  |  doc_id: tyipjxdg
+Q: Is nutrition a necessary component to athletic success?
+A: The Role of Nutrition in Enhancing Athletic Performance Every athlete dreams of the moment they stand atop the podium, basking in the glow of victory. But behind the medals and the accolades lies a less glamorous, yet equally critical component to success: nutrition. It was September 12, 2023, when I first stumbled upon a local seminar titled "Fueling for Gold: Nutrition and the Athlete's Journey," led by renowned dietitian Dr. Emily Jordan. That was the day my perspective on sports, health, and my own athletic performance shifted dramatically.
+Judge: The answer merely repeats the opening paragraph of the document without actually answering the yes/no question posed, making it irrelevant despite being grounded and document-dependent.
+Context snippet: The Role of Nutrition in Enhancing Athletic Performance Every athlete dreams of the moment they stand atop the podium, basking in the glow of victory. But behind the medals and the accolades lies a less glamorous, yet equally critical component to success: nutrition. It was September 12, 2023, when I first stumbled upon a local seminar titled "Fueling for Gold: Nutrition and the Athlete's Journey,...
+------------------------------------------------------------------------
+
+EXAMPLE 6  |  tier=low  G=5  R=1  DN=4  O=1
+failure_mode: grounded_but_irrelevant
+topic: Local Arts and Culture  |  doc_id: eavuzqzn
+Q: How do you know you're doing a good job?
+A: Definitely. Restoration is only part of the picture. Preventive conservation is about ensuring that we minimize the deterioration or damage to cultural property over time. If we can identify potential risks and mitigate them early on, it not only saves resources but also preserves the original authenticity of the artifact. It's like that adage, 'a stitch in time saves nine.' With cultural heritage, early preservation is key to keeping the narrative intact for future generations.
+Judge: The answer is well-grounded in the document but completely fails to address the question asked—it discusses preventive conservation instead of how to know you're doing a good job, making it irrelevant despite being from the correct source material.
+Context snippet: Restoration and Conservation: Safeguarding Heritage for Future Generations In a world that is constantly evolving and where modernity seems to overshadow our past, the importance of connecting with our cultural heritage has never been more paramount. The intricate process of restoration and conservation allows us to maintain a tangible link to the history that shapes our identities and communities...
+------------------------------------------------------------------------
+
+EXAMPLE 7  |  tier=low  G=5  R=1  DN=4  O=1
+failure_mode: grounded_but_irrelevant
+topic: Incident Report  |  doc_id: cckaifyk
+Q: What is the most dangerous space radiation event that has occurred?
+A: A solar particle event (SPE) alarm is a warning system that alerts mission control and astronauts to an inbound stream of high-energy particles from the Sun that could pose an immediate health risk. On September 15, 2023, an SPE alarm triggered a "shelter in place" order for ISS crew members. They moved to the station's most shielded modules for several hours until the danger passed, demonstrating the alarm's role in proactive mission safety.
+Judge: The answer is well-grounded in the document but completely fails to address the question asked—it describes what an SPE alarm is rather than identifying the most dangerous space radiation event that has occurred.
+Context snippet: The Risk to Astronauts: Space Radiation Events and Mission Safety As humans increasingly turn their gaze towards the cosmos, aiming for prolonged space exploration and habitation, it's become clear that space radiation poses a significant challenge. This unseeable threat can affect the health of astronauts and the safe operation of missions. With events like the recent solar storm on September 28,...
+------------------------------------------------------------------------
+
+EXAMPLE 8  |  tier=low  G=5  R=1  DN=5  O=1
+failure_mode: grounded_but_irrelevant
+topic: Local Health and Wellness  |  doc_id: lwiaclzj
+Q: What is the purpose of these nutrition workshops?
+A: The recent surge in the popularity of mindful eating was addressed in the December 27th workshop. This approach goes beyond what we eat and delves into how and why we eat. Mindful eating encourages a deeper connection with food, advising us to eat slowly, savor each bite, and listen to our body’s hunger cues. This practice was shown to not only improve digestion but also to enhance the overall eating experience and prevent overeating.
+Judge: The answer is well-grounded in the document but completely fails to address the question about the workshops' purpose, instead describing only the mindful eating workshop content.
+Context snippet: Nutrition and Balanced Diet Essentials for Every Age: Empower Your Plate!   Are you often baffled by the numerous diet trends and nutrition myths bombarding you from every direction? In the world where information is at our fingertips, it can be challenging to discern what constitutes a truly healthy diet. Fortunately, a series of wellness workshops have been launched since September 15, 2023, aim...
+------------------------------------------------------------------------
+
+EXAMPLE 9  |  tier=low  G=5  R=1  DN=5  O=1
+failure_mode: grounded_but_irrelevant
+topic: News Stories  |  doc_id: zwnispiu
+Q: Will we ever have a brain-computer interface?
+A: The announcement of the new BCI has prompted discussions among regulatory bodies. Ethical concerns also loom large, with debates centering around data privacy and the potential for misuse. Dr. Park has called for a collaborative effort between developers and policymakers to establish guidelines that protect users' rights without stifling innovation.
+Judge: The answer is well-grounded in the document but completely fails to address the yes/no question about whether BCIs will ever exist, instead discussing regulatory and ethical concerns that are tangential to the core question.
+Context snippet: Brain-to-Computer Interfaces: Revolutionizing Human Cognition and Market Dynamics   In a landmark breakthrough that pushes the boundaries of neuroscience and engineering, a consortium of tech giants and academic institutions announced on October 3, 2024, the development of the most advanced Brain-to-Computer Interface (BCI) technology to date. This interface, which enables seamless communication b...
+------------------------------------------------------------------------
+
+EXAMPLE 10  |  tier=low  G=5  R=1  DN=4  O=1
+failure_mode: grounded_but_irrelevant
+topic: Regional Cuisine and Recipes  |  doc_id: tzmyuzgj
+Q: Is there a competition that rivals The Grand Bistros?
+A: The Grand Bistros are not simply competitions; they are grand festivals celebrating the culinary world in all its glory.
+Judge: The answer is well-grounded in the document but completely fails to address the question asked, which inquires about rival competitions to The Grand Bistros, not what The Grand Bistros themselves are.
+Context snippet: The Grand Bistros: Showcasing Regional Flavors in Annual Culinary Face-Offs The simmering anticipation in the air is almost as palpable as the aromatic scents wafting from the bustling cooking stations. Food enthusiasts and professionals alike mark their calendars for this spectacular event, The Grand Bistros - a series of regional culinary competitions that have become a showcase for local flavor...
+------------------------------------------------------------------------
+
+EXAMPLE 11  |  tier=low  G=5  R=2  DN=4  O=2
+failure_mode: grounded_but_irrelevant
+topic: Small and Medium Enterprises  |  doc_id: pooflxny
+Q: What is the role of SMEs in the current global cybersecurity landscape?
+A: The current cyber threat landscape for SMEs is characterized by an increase in targeted attacks due to the vulnerability of small businesses. SMEs often operate under the misconception that their obscurity protects them from cybercriminals, but in reality, they are a prime target for sophisticated threats. Cybercriminals prefer to target SMEs due to their limited cybersecurity measures. The vulnerability of SMEs can be attributed to a lack of resources, including insufficient cybersecurity measures and budget constraints. The impact of cyber attacks on SMEs can be devastating, affecting not only their financial standing but also their reputation and customer trust. Cybersecurity frameworks and best practices for SMEs include risk assessment, implementing strong security policies, staff training, and having an incident response plan in place. Employee education and training are crucial in mitigating the risk of human error. Technological solutions are available for SMEs, including open-source tools and cloud-based security services. Implementing a proactive incident response plan is essential in managing the aftermath of a cybersecurity incident. Compliance with privacy regulations is also important for SMEs, and seeking professional counsel is advised. Looking to the future, cybersecurity is transitioning from being seen as a cost center to a competitive advantage for SMEs.
+Judge: The answer is well-grounded in the document but addresses SMEs as targets/victims rather than their role in the global cybersecurity landscape, which is a different interpretation of the question.
+Context snippet: Addressing Cybersecurity Threats and Protecting Business Data in SMEs In the contemporary business landscape, small and medium enterprises (SMEs) are not just navigating the challenges of market competition and financial management, but they are also facing serious threats in cyberspace. Cybersecurity is a pivotal concern for businesses of all sizes, but SMEs often lack the resources to adequately...
+------------------------------------------------------------------------
+
+EXAMPLE 12  |  tier=low  G=5  R=2  DN=5  O=2
+failure_mode: grounded_but_irrelevant
+topic: Local Economy and Market  |  doc_id: izgnphfr
+Q: Do Small Businesses Have a Sustainability Advantage?
+A: Incentives or Empty Promises? One can argue that there are government incentives designed to ease this transition towards a sustainable future for small businesses. Indeed, these promises sound impressive on paper, but the path to attaining these incentives is fraught with complexity and delays. Take the example of 'Green Innovations', a local energy solutions provider led by David Huang, who after several attempts since late 2023, is still wading through the procedural quagmire to avail tax credits for his company's transition to solar energy. These incentives are not the panacea they are made out to be. Rather than providing immediate relief, they often lead to more bureaucracy, keeping precious resources locked away when they're most urgently needed.
+Judge: The answer is fully grounded in the document and requires it, but it addresses government incentives rather than directly answering whether small businesses have a sustainability advantage.
+Context snippet: Ensuring Sustainability and Environmental Responsibility: The Small Business Conundrum In a rapidly evolving market where the buzzwords "sustainability" and "environmental responsibility" are often thrown around with an air of necessity, small businesses are struggling to keep up. It's not merely a bandwagon for the eco-conscious consumer anymore; it has become a regulatory landscape fraught with ...
+------------------------------------------------------------------------
+
+EXAMPLE 13  |  tier=low  G=5  R=1  DN=5  O=1
+failure_mode: grounded_but_irrelevant
+topic: Cybersecurity News  |  doc_id: syvmzfry
+Q: What are the 8 common myths about cybersecurity?
+A: Cybersecurity awareness is not just about having strong passwords, although they are a crucial component. A survey dated October 7, 2023, by the National Cybersecurity Institute revealed that while 82% of individuals claimed to use robust passwords, only 53% regularly update their software and systems, and a staggeringly lower percentage engages with other security practices like two-factor authentication or avoiding suspicious links. Strong passwords are merely one layer in a multi-layered defense strategy known as "defense in depth." Kevin Greene, a cybersecurity strategist, pointed out during a podcast on October 20, 2023, "You wouldn't rely on a single type of lock for your home security, so why do the same with your digital life? Implementing various security measures is essential."
+Judge: The answer is well-grounded in the document but only addresses Myth #2 in detail when the question asks for all 8 myths, making it largely irrelevant to the actual question asked.
+Context snippet: Fostering a Culture of Cybersecurity Awareness and Education: Unraveling the Myths   In an era where the internet is intertwined with almost every facet of our lives, cybersecurity has transcended from being a niche concern to a national priority. Recognizing the critical importance of defending digital infrastructure, numerous countries have unveiled comprehensive National Cybersecurity Strategie...
+------------------------------------------------------------------------
+
+EXAMPLE 14  |  tier=low  G=3  R=2  DN=1  O=1
+failure_mode: other_low
+topic: Neighborhood Stories  |  doc_id: vqzayblw
+Q: What is the main purpose of the Heritage Protection Act?
+A: The main purpose of the Heritage Protection Act is to protect and preserve cultural heritage sites and structures by implementing policies and guidelines that ensure their safety and conservation for future generations.
+Judge: The answer provides a generic description of heritage protection purposes that is broadly supported by the document's introduction, but the question asks about 'the Heritage Protection Act' (singular) which is ambiguous since the document discusses ten different acts from various countries, making the answer imprecise and not document-specific.
+Context snippet: Safeguarding Structures of Significance: The Top 10 Heritage Protection Policies Worldwide In the ever-evolving tapestry of urban development, our architectural heritage stands as an unwavering testament to our cultural, historical, and aesthetic achievements. The reverence of generations past is echoed in the facades, foundations, and frameworks of buildings that dot our cities and countrysides, ...
+------------------------------------------------------------------------
+
+EXAMPLE 15  |  tier=low  G=3  R=2  DN=1  O=1
+failure_mode: other_low
+topic: Regional Cuisine and Recipes  |  doc_id: ohlzuqtu
+Q: Is the Mediterranean diet still a healthy choice?
+A: The Mediterranean diet is still considered a healthy choice due to its rich variety of ingredients and the balance it provides. These ingredients, such as olive oil, grains, seafood, vegetables, legumes, herbs, and spices, are integral to the diet's nutritional adequacy and contribute to its health benefits. The Mediterranean climate allows for the growth of a variety of vegetables, and preservation methods like curing, smoking, and salting are used to enhance the flavors of these items year-round. Dairy products like cheese and yogurt are also part of the diet, with cheese telling a story of the locale it comes from and embodying the very grasses that feed the goats, sheep, or cows. Fruits add natural sweetness to Mediterranean cuisine, and their abundance is a symbol of the region's agricultural triumphs. The Mediterranean diet's balance and variety have been recognized for its health benefits, making it a still-relevant choice.
+Judge: The answer extrapolates health claims not explicitly stated in the document, which focuses on ingredient descriptions rather than health outcomes, and the question asks about current health validity which requires external knowledge beyond the provided context.
+Context snippet: The Staple Ingredients of Mediterranean Cooking: Foundations of Flavor   The Mediterranean region, heralded for its variety of flavors, vibrant colors, and healthful benefits, has always captivated the culinary world. A synthesis of the environment's agricultural bounty and the historical amalgamation of cultures, Mediterranean cuisine offers a distinctive taste characterized by a few key ingredie...
+------------------------------------------------------------------------
+
+EXAMPLE 16  |  tier=drop  G=1  R=5  DN=5  O=1
+failure_mode: grounding_collapse
+topic: Company Policies  |  doc_id: xycfxtsi
+Q: Can employees use company funds for personal activities?
+A: No, employees cannot use company funds for personal activities.
+Judge: The answer directly contradicts the document's explicit statement that personal activities can be included 'so long as they don't add extra cost to the company,' meaning employees CAN use personal time for non-business activities without company funding.
+Context snippet: Welcome to JetStream Dynamics: Our Travel and Expense Policy Narrative   At JetStream Dynamics, we believe that travel broadens the mind and can often be the wind beneath the wings of dynamic business opportunities. But let's face it, folks – when it comes to travel and expenses, keeping things clear and within the budget is as crucial as our morning caffeine fix. That's why we've whipped up a com...
+------------------------------------------------------------------------
+
+EXAMPLE 17  |  tier=drop  G=1  R=1  DN=5  O=1
+failure_mode: grounding_collapse
+topic: Local News  |  doc_id: tqtgbnow
+Q: Will the transit overhaul displace long-time residents?
+A: The upgrade promises to improve the lives of all residents by providing cleaner, more efficient, and more accessible transportation. The focus is on making the system more efficient and effective for the benefit of all citizens.
+Judge: The answer addresses resident displacement, which is not discussed anywhere in the provided context document, making it unsupported and irrelevant to what the document actually covers.
+Context snippet: Title: "City Council Goes Full Speed Ahead With Major Public Transit Improvements"  In a landmark decision on September 15, 2023, the City Council, led by Mayor Linda Evans and guided by Transport Committee Chair Michael Johnson, has overwhelmingly approved an ambitious plan to upgrade the city's public transportation system. Let's hop aboard and explore the top 10 benefits we're poised to enjoy o...
+------------------------------------------------------------------------
+
+EXAMPLE 18  |  tier=drop  G=1  R=1  DN=5  O=1
+failure_mode: grounding_collapse
+topic: Local Politics and Governance  |  doc_id: dfweklpx
+Q: What is the point of all these overpasses in Austin?
+A: The Grand Unveiling: Where Even Ducks Don't Dare Waddle ... Traffic Solutions or Elevated Confusion? ... Ribbon-Cutting or Red Tape? ... What Lies Beneath?
+Judge: The answer merely lists section headings without actually explaining the purpose of the overpasses, failing to address the question despite the document's satirical treatment of this exact ambiguity.
+Context snippet: Building Bridges to Nowhere: Austin's Growing Appreciation for Overpasses   At Austin's bustling city council meeting on September 7, 2023, an unsettling new initiative called Elevate Austin was unveiled that has caused both confusion and amusement among its residents. Spearheaded by Councilman Bob "Bridges" McGee, the project has both been applauded as visionary while also being criticised as tax...
+------------------------------------------------------------------------
+
+EXAMPLE 19  |  tier=drop  G=1  R=2  DN=1  O=1
+failure_mode: grounding_collapse
+topic: Local Environmental Issues  |  doc_id: otqfuxzi
+Q: What's next for Concrete Jungle's wildlife?
+A: In the coming year, the city's wildlife will undoubtedly continue to evolve, grow, and thrive, thanks to the residents' unwavering commitment to their wild friends. They'll likely adapt to the changing climate, expand their territories, and perhaps even establish their own wildlife networks, akin to the social media platforms of the animal kingdom. Who knows, maybe they'll even discover new species! After all, as the great philosopher once said, 'one can never have too many critters in the concrete jungle'.
+Judge: The answer makes speculative claims about the future that are not supported by the document, which only describes past events through December 2023 with no forward-looking statements.
+Context snippet: Community-Based Madness: Critters and Crusaders in the Concrete Jungle Once upon a not-so-distant September, precisely September 2, 2023, the city dwellers of Concrete Jungle USA decided that, in between the rare sightings of the stars through the smoggy night sky, they should see a wild animal or two. Thus began the hilarious saga of urban warriors turned part-time conservationists, which is *not...
+------------------------------------------------------------------------
+
+EXAMPLE 20  |  tier=drop  G=1  R=5  DN=1  O=1
+failure_mode: grounding_collapse
+topic: Neighborhood Stories  |  doc_id: ynbxkwet
+Q: What can we do to support social workers?
+A: To support social workers, we can recognize and appreciate their selfless service. We can volunteer our time to help with tasks such as paperwork, home visits, and counseling sessions. We can also offer emotional support and listen to their stories, acknowledging the weight they carry. Additionally, we can donate resources to their cause, whether it's funding for their work or providing essential items they often overlook. By doing so, we can help them continue their heroic work.
+Judge: The document does not address how to support social workers; it only describes their work and challenges, making the answer unsupported by the provided context and answerable through general knowledge alone.
+Context snippet: The Selfless Work of Social Workers: The Hidden Heroes Among Us In the bustling streets of our community, where the clamor of daily life often drowns out the quiet acts of compassion, there is a force of extraordinary people who work tirelessly to knit the social fabric of our neighborhoods closer together. Social workers may not wear capes or stand under spotlights, but their heroic deeds are the...
+------------------------------------------------------------------------
+
+EXAMPLE 21  |  tier=drop  G=1  R=5  DN=1  O=1
+failure_mode: grounding_collapse
+topic: Local Sports and Activities  |  doc_id: vhfdavxk
+Q: Is HIIT safe for people with pre-existing conditions?
+A: HIIT is not suitable for everyone, especially those with pre-existing conditions. It is essential to consult with a doctor before starting any new exercise program, especially if you have any health concerns. Some pre-existing conditions that may be affected by HIIT include heart problems, high blood pressure, and osteoporosis. It is also important to note that HIIT is not recommended for pregnant women or people with certain chronic medical conditions. However, with proper guidance and precautions, HIIT can be a safe and effective way to improve overall health and fitness.
+Judge: The answer is entirely unsupported by the provided context, which is a promotional article about local HIIT workouts in parks with no medical safety information or guidance about pre-existing conditions.
+Context snippet: HIIT The Ground Running: The Local Fitness Craze Sweeping Our Parks!   In every corner of our bustling metropolis, local parks have witnessed a phenomenal surge in fitness enthusiasts gathering for a specific purpose: to indulge in the high-energy, fatblasting world of High-Intensity Interval Training, famously known as HIIT. Since the turn of the season, post-September 1st, 2023, this dynamic exe...
+------------------------------------------------------------------------
+
+EXAMPLE 22  |  tier=drop  G=1  R=5  DN=1  O=1
+failure_mode: grounding_collapse
+topic: Regional Folklore and Myths  |  doc_id: rnrygyoc
+Q: Does the story of the vanishing fisherman have any parallels in other cultures or stories?
+A: The story of the vanishing fisherman has parallels in other cultures and stories. The archetype of the vanishing hero is a common motif in literature and folklore, appearing in various forms and contexts. Examples include the story of Jason and the Argonauts, where the ship Argo is said to have sailed into the unknown, to the biblical tale of Jonah, where the prophet is swallowed by a whale, and the myth of Orpheus and Eurydice, where the musician loses his beloved in the underworld. These stories, like the tale of the vanishing fisherman, often explore the human condition, the power of nature, and the mysteries of the unknown.
+Judge: The answer provides specific examples (Jason and the Argonauts, Jonah, Orpheus) that are not mentioned anywhere in the provided context, making it entirely unsupported by the document despite being relevant to the question asked.
+Context snippet: The Tale of the Vanishing Fisherman: An Investigation into Local Legends and Lore   Deep within the heart of coastal communities, where the fabric of reality seems to weave itself into the mystical, there exist stories that defy explanation and fuel the imagination. Amongst the oral traditions handed down through generations, the Tale of the Vanishing Fisherman stands as a testament to the inexpli...
+------------------------------------------------------------------------
+
+EXAMPLE 23  |  tier=drop  G=1  R=1  DN=5  O=1
+failure_mode: grounding_collapse
+topic: Local Arts and Culture  |  doc_id: wclzpgwg
+Q: What is the significance of street art in today's society?
+A: Urban Canvases: Exploring Street Art's Vibrant Pulse
+Judge: The answer is just the document title, not an actual answer to the question about street art's significance in society.
+Context snippet: Urban Canvases: Exploring Street Art's Vibrant Pulse   An exciting surge of creative expression continues to sweep cities. Street art and graffiti have evolved from acts of vandalism into recognized forms of public art that represent community identity and are becoming part of urban culture itself. Nowhere is this phenomenon more visible than among emerging artists who are creating work with vivid...
+------------------------------------------------------------------------
+
+EXAMPLE 24  |  tier=drop  G=1  R=1  DN=1  O=1
+failure_mode: grounding_collapse
+topic: Company Policies  |  doc_id: felagsyh
+Q: How will they keep the work from being affected if a team member is not available?
+A: In this remote work environment, it's essential to establish clear guidelines and expectations to ensure that everyone is aware of their responsibilities and the impact of their absence on the team. The remote work policy should include procedures for managing tasks and projects when a team member is not available, such as delegating tasks, adjusting deadlines, or communicating with the team. Effective communication and coordination are crucial in making remote work successful.
+Judge: The provided context does not address team member availability, task delegation, absence procedures, or continuity planning - the answer is entirely generic and unsupported by the document.
+Context snippet: Introduction to "Techfinity Solutions" Remote Work Policy   Hey Team Techfinity,   In the spirit of embracing the digital era and making sure we all stay connected while working from our cozy corners of the world, we've rolled out some guidelines. Think of this as the low-down on how we can all stay plugged in, without actually being plugged into an office socket, you know?   Equipment Basics: Wha...
+------------------------------------------------------------------------

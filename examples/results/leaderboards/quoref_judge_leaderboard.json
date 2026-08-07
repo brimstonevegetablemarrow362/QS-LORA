@@ -1,0 +1,286 @@
+{
+  "schema": "repliqa_bedrock_judge_leaderboard/v1",
+  "created_at": "2026-07-09T08:03:45.378401+00:00",
+  "rank_by": "mean_gold_alignment",
+  "n_conditions": 13,
+  "leaderboard": [
+    {
+      "condition": "Ours_tier_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_tier_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_tier_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_tier_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.7054,
+      "mean_overall": 3.7398,
+      "mean_grounding": 4.2329,
+      "mean_relevance": 3.8469,
+      "tier_counts": {
+        "high": 1498,
+        "medium": 236,
+        "low": 200,
+        "drop": 483,
+        "error": 1
+      },
+      "rank": 1
+    },
+    {
+      "condition": "Ours_high_med_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_high_med_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_high_med_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_high_med_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.7042,
+      "mean_overall": 3.7393,
+      "mean_grounding": 4.2358,
+      "mean_relevance": 3.8448,
+      "tier_counts": {
+        "high": 1498,
+        "medium": 236,
+        "low": 205,
+        "drop": 478,
+        "error": 1
+      },
+      "rank": 2
+    },
+    {
+      "condition": "Ours_low_heavy_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_low_heavy_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_low_heavy_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_low_heavy_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.6934,
+      "mean_overall": 3.7311,
+      "mean_grounding": 4.2565,
+      "mean_relevance": 3.8374,
+      "tier_counts": {
+        "high": 1493,
+        "medium": 239,
+        "low": 220,
+        "drop": 465,
+        "error": 1
+      },
+      "rank": 3
+    },
+    {
+      "condition": "B5_adalora_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/B5_adalora_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B5_adalora_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B5_adalora_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.6636,
+      "mean_overall": 3.693,
+      "mean_grounding": 4.1916,
+      "mean_relevance": 3.7906,
+      "tier_counts": {
+        "high": 1471,
+        "medium": 224,
+        "low": 216,
+        "drop": 506,
+        "error": 1
+      },
+      "rank": 4
+    },
+    {
+      "condition": "Ours_freq_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_freq_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_freq_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_freq_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.6508,
+      "mean_overall": 3.6856,
+      "mean_grounding": 4.2065,
+      "mean_relevance": 3.7973,
+      "tier_counts": {
+        "high": 1462,
+        "medium": 244,
+        "low": 214,
+        "drop": 497,
+        "error": 1
+      },
+      "rank": 5
+    },
+    {
+      "condition": "Ours_equal_rank_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_equal_rank_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_equal_rank_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_equal_rank_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.6239,
+      "mean_overall": 3.6616,
+      "mean_grounding": 4.175,
+      "mean_relevance": 3.7675,
+      "tier_counts": {
+        "high": 1452,
+        "medium": 234,
+        "low": 215,
+        "drop": 516,
+        "error": 1
+      },
+      "rank": 6
+    },
+    {
+      "condition": "B1_cpt_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/B1_cpt_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B1_cpt_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B1_cpt_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2418,
+      "mean_gold_alignment": 3.6079,
+      "mean_overall": 3.6468,
+      "mean_grounding": 4.1179,
+      "mean_relevance": 3.7361,
+      "tier_counts": {
+        "high": 1523,
+        "medium": 140,
+        "low": 206,
+        "drop": 549,
+        "error": 0
+      },
+      "rank": 7
+    },
+    {
+      "condition": "Ours_high_only_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_high_only_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_high_only_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_high_only_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.5921,
+      "mean_overall": 3.626,
+      "mean_grounding": 4.144,
+      "mean_relevance": 3.7348,
+      "tier_counts": {
+        "high": 1423,
+        "medium": 250,
+        "low": 210,
+        "drop": 534,
+        "error": 1
+      },
+      "rank": 8
+    },
+    {
+      "condition": "Ours_inverted_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_inverted_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_inverted_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_inverted_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.5834,
+      "mean_overall": 3.6309,
+      "mean_grounding": 4.192,
+      "mean_relevance": 3.7315,
+      "tier_counts": {
+        "high": 1437,
+        "medium": 233,
+        "low": 243,
+        "drop": 504,
+        "error": 1
+      },
+      "rank": 9
+    },
+    {
+      "condition": "B3_lora_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/B3_lora_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B3_lora_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B3_lora_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2417,
+      "mean_gold_alignment": 3.5039,
+      "mean_overall": 3.5325,
+      "mean_grounding": 4.0343,
+      "mean_relevance": 3.6343,
+      "tier_counts": {
+        "high": 1380,
+        "medium": 225,
+        "low": 211,
+        "drop": 601,
+        "error": 1
+      },
+      "rank": 10
+    },
+    {
+      "condition": "Ours_equal_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_equal_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_equal_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_equal_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2418,
+      "mean_gold_alignment": 2.2142,
+      "mean_overall": 2.189,
+      "mean_grounding": 2.9218,
+      "mean_relevance": 2.3077,
+      "tier_counts": {
+        "high": 617,
+        "medium": 146,
+        "low": 362,
+        "drop": 1293,
+        "error": 0
+      },
+      "rank": 11
+    },
+    {
+      "condition": "B3_lora_no_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/B3_lora_no_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B3_lora_no_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/B3_lora_no_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2418,
+      "mean_gold_alignment": 1.1861,
+      "mean_overall": 1.1873,
+      "mean_grounding": 1.2486,
+      "mean_relevance": 1.2213,
+      "tier_counts": {
+        "high": 88,
+        "medium": 26,
+        "low": 25,
+        "drop": 2279,
+        "error": 0
+      },
+      "rank": 12
+    },
+    {
+      "condition": "Ours_tier_no_ctx",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/predictions/Ours_tier_no_ctx/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_tier_no_ctx/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/quoref/runs/quoref_qa_v1/eval/judged/Ours_tier_no_ctx/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2418,
+      "n_judged_ok": 2418,
+      "mean_gold_alignment": 1.1154,
+      "mean_overall": 1.1146,
+      "mean_grounding": 1.2155,
+      "mean_relevance": 1.134,
+      "tier_counts": {
+        "high": 54,
+        "medium": 18,
+        "low": 51,
+        "drop": 2295,
+        "error": 0
+      },
+      "rank": 13
+    }
+  ],
+  "notes": [
+    "External LLM judge (Bedrock Haiku) with human gold reference (v3_eval_gold).",
+    "gold_alignment: semantic match pred vs gold (1-5).",
+    "overall: holistic prediction quality; grounding: supported by context."
+  ]
+}

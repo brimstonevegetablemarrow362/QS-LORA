@@ -1,0 +1,47 @@
+{
+  "schema": "document_coverage_summary/v1",
+  "created_at": "2026-07-17T21:18:25.718664+00:00",
+  "docs_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/repliqa/runs/repliqa_split1_chunk_gen_ab/documents_unique.jsonl",
+  "qa_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/repliqa/runs/arm_ft_generator/train/synthetic_qa_haiku_judge.jsonl",
+  "settings": {
+    "n_windows": 5,
+    "overlap_threshold": 0.35,
+    "mode": "embedding_cosine",
+    "exclude_tiers": [
+      "drop"
+    ],
+    "embed_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "cosine_threshold": 0.35,
+    "device": "cuda",
+    "batch_size": 256
+  },
+  "n_qa_rows_excluded": 4519,
+  "n_documents_scored": 3591,
+  "n_qa_rows": 7020,
+  "tier_counts_qa": {
+    "high": 5440,
+    "low": 573,
+    "medium": 1004,
+    "unknown": 3
+  },
+  "mean_coverage": 0.907,
+  "median_coverage": 1.0,
+  "pct_docs_coverage_ge_80": 90.48,
+  "pct_docs_coverage_ge_40": 91.9,
+  "coverage_by_window_position": {
+    "window_1": 91.76,
+    "window_2": 90.48,
+    "window_3": 89.72,
+    "window_4": 90.17,
+    "window_5": 91.4
+  },
+  "mean_coverage_by_majority_tier": {
+    "high": 0.9817,
+    "low": 0.9569,
+    "medium": 0.9748,
+    "none": 0.0,
+    "unknown": 0.8
+  },
+  "mean_window_cosine": 0.6253,
+  "median_window_cosine": 0.6712
+}

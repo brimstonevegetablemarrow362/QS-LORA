@@ -1,0 +1,11 @@
+# openai HTTP client for generate_qa_from_chunks (talks to local vLLM)
+openai>=1.40.0
+# Bedrock judge
+boto3>=1.34.0
+botocore>=1.34.0
+# thesis utilities
+numpy>=1.22.0
+tqdm>=4.66.0
+pyyaml>=6.0
+# HF downloads / tokenizers (merge helpers)
+huggingface_hub>=0.24.0

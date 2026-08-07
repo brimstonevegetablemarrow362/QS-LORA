@@ -1,0 +1,14 @@
+# SFT for PeerQA / normalized QA (install into your training venv)
+#
+# PyTorch is required (transformers/TRL do not always pull a GPU wheel). For CUDA,
+# pick the command from https://pytorch.org/ that matches your driver, then:
+#   pip install -r requirements_sft.txt
+torch>=2.1.0
+# Chat templates in transformers need Jinja2 3.1+ (pass_eval_context)
+jinja2>=3.1.0
+transformers>=4.44.0
+accelerate>=0.33.0
+datasets>=2.14.0
+trl>=0.9.0
+peft>=0.12.0
+bitsandbytes>=0.43.0; sys_platform != "darwin"

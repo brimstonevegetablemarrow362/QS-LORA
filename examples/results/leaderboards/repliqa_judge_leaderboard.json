@@ -1,0 +1,34 @@
+{
+  "schema": "repliqa_bedrock_judge_leaderboard/v1",
+  "created_at": "2026-07-09T22:18:41.759846+00:00",
+  "rank_by": "mean_gold_alignment",
+  "n_conditions": 1,
+  "leaderboard": [
+    {
+      "condition": "B3_lora_all",
+      "input_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/repliqa/runs/repliqa_train_0-3/eval/predictions/B3_lora_all/predictions.jsonl",
+      "out_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/repliqa/runs/repliqa_train_0-3/eval/judged_reaudit_v1/B3_lora_all/bedrock_judge.jsonl",
+      "summary_json": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/repliqa/runs/repliqa_train_0-3/eval/judged_reaudit_v1/B3_lora_all/bedrock_judge_summary.json",
+      "prompt_version": "qa_judge_rubric/v3_eval_gold",
+      "n_rows": 2000,
+      "n_judged_ok": 2000,
+      "mean_gold_alignment": 3.639,
+      "mean_overall": 3.6395,
+      "mean_grounding": 4.0135,
+      "mean_relevance": 3.6785,
+      "tier_counts": {
+        "high": 1310,
+        "medium": 76,
+        "low": 82,
+        "drop": 532,
+        "error": 0
+      },
+      "rank": 1
+    }
+  ],
+  "notes": [
+    "External LLM judge (Bedrock Haiku) with human gold reference (v3_eval_gold).",
+    "gold_alignment: semantic match pred vs gold (1-5).",
+    "overall: holistic prediction quality; grounding: supported by context."
+  ]
+}

@@ -1,0 +1,41 @@
+# Secrets / local env
+.env
+.env.*
+!.env.example
+bedrock_credentials.env
+**/bedrock_credentials.env
+*.pem
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+qa_env/
+
+# Model weights (ship via GitHub Releases, not git)
+release/*.zip
+release/qa-generator-lora/
+*.safetensors
+*.bin
+*.gguf
+out/
+merged-*/
+**/checkpoint-*/
+
+# Data & experiment dumps
+data/
+thesis/experiments/
+*.jsonl.gz
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Logs
+*.log
+slurm-*.out

